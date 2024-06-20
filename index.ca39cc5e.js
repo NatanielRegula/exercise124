@@ -587,8 +587,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "main", ()=>main);
-var _400Css = require("@fontsource/inter/400.css");
-var _600Css = require("@fontsource/inter/600.css");
 let intersectionObservers = [];
 function activateSnapping() {
     document.documentElement.style.scrollSnapType = "y mandatory";
@@ -668,7 +666,7 @@ function main() {
 }
 document.addEventListener("DOMContentLoaded", main);
 
-},{"@fontsource/inter/400.css":"lNQtR","@fontsource/inter/600.css":"jPSgw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lNQtR":[function() {},{}],"jPSgw":[function() {},{}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
